@@ -3,12 +3,12 @@ Time Complexity: O(b), the recursive function will be called b times
 Space Complexity: O(b), b*2 number of arguments will be pushed into the stack frame
 */
 
-int multiplyHelper(int a, int b) {
+long long int multiplyHelper(long long int a, long long int b) {
   if(b == 0) return 0;
   return a + multiplyHelper(a, b - 1);
 }
 
-int multiply(int a, int b) {
+long long int multiply(long long int a, long long int b) {
   if(a > b) swap(a, b);
   return multiplyHelper(a, b);
 }
