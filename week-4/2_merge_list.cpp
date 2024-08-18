@@ -82,7 +82,7 @@ Node* mergeList(Node* head1, Node* head2) { // O(n + m) time, O(n + m) space
     return ll->begin();
 }
 
-// demonstrating how to use the revList function
+// demonstrating how to use the mergeList function
 int main() {
     int n, m, e;
     LinkedList ll1, ll2;
