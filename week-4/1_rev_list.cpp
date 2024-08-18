@@ -1,6 +1,6 @@
 /*
 	Time Complexity: O(n) (Due to traversing the entire list)
- 	Space Complexity: O(n) (Because no additional space was required, except for the n number nodes)
+ 	Space Complexity: O(1) (Because no additional space was required to perform the reversal)
 */
 
 #include <bits/stdc++.h>
@@ -79,7 +79,7 @@ int main() {
     }
 
 	// passing the head of the list to the function
-    Node* node = revList(ll.begin());
+    Node* node = revList(ll.begin()); // O(n) time, O(1) space
 
 	// print the reversed list
     while(node) { // O(n) time
