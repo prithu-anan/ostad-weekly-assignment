@@ -4,7 +4,7 @@ int maxUnit(vector<pair<int,int>>& boxTypes, int truckSize) {
 	sort(v.begin(), v.end(),
          [](const pair<int, int>& a,
             const pair<int, int>& b) {
-             return (float) a.second / a.first > (float) b.second / b.first;
+             return a.second > b.second;
          });
 
 	int ans = 0;
