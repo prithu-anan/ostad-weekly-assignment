@@ -1,6 +1,6 @@
 /*
-Time Complexity: O(N + edges.size())
-Space Complexity: O(N + edges.size())
+Time Complexity: O(N + edges.size()), proportional to number of vertices & number of edges
+Space Complexity: O(N + edges.size()), proportional to number of vertices & number of edges
 */
 
 bool validPath(vector<vector<int>> adj, int src, int dst) {
