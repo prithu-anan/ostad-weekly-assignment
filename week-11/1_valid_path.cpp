@@ -38,7 +38,7 @@ int main() {
         adj[edge.second].push_back(edge.first);
     }
 
-    cout << validPath(adj, 0, 5) << endl;
+    cout << validPath(adj, 0, 5);
 
     return 0;
 }
